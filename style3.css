@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+}
+
+
+
+.top{
+    background-color: black;
+    height: 5em;
+    margin-top: -1em;
+}
+img{
+    width: 100%;
+    background-size:cover;
+}
+.container {
+    height: 280px; /* Adjust as needed to allow scrolling */
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+#scrollImage {
+    width: 100%; /* Initial width */
+    transition: opacity 0.8s ease-in-out;
+}
+
+
+hr {
+    width: 100%;
+    height: 5px;
+    color: black;
+    background-color: black;
+}
+
+.navbar {
+    margin-top: -0.5em;
+    width: auto;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 1.5em; /* Adjust the font size for smaller screens */
+}
+
+.fa-solid {
+    margin-left: 30px; /* Adjust the margin for smaller screens */
+    color: white;
+    margin-right: 4em;
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    background-color: black;
+    color: white;
+    height: 2em;
+    font-size: 1.2em; /* Adjust the font size for smaller screens */
+    text-align: center;
+    margin-left: -1px;
+    margin-right: 1em; /* Adjust the margin for smaller screens */
+    padding-top: 0.4em;
+    padding-right:  16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.bg-col{
+    background-color: white(56, 76, 178);
+    filter: blur(2px);
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+}
+
+.art {
+    margin-left: 30px;
+}
+
+.art2 {
+    margin-left: 30px;
+}
+
+
+ul {
+    height: 39em;
+    list-style-type: none;
+    font-size: 1.5em; /* Adjust the font size for smaller screens */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cen{
+    padding-left: 12em;
+}
+
+.section1{
+    color: white;
+    padding-top: 5em;
+    width: 45em;
+    margin-left: 7rem;
+}
+
+
+#png{
+    background-image: url("group.png");
+    height: 10em;
+    width: 10em;
+    background-size: 10em;
+    margin-left: 10em;
+    margin-bottom: -1em;
+}
+
+#cen2{
+    margin-left: 4em;
+}
+
+.section2{
+    color: white;
+    width: 18em;
+    margin: -32em 0em -10rem 30em;
+}
+
+#png2{
+    background-image: url("news1.png");
+    height: 6em;
+    width: 6em;
+    background-size: 7em;
+    margin-left: 4em;
+}
+h1{
+    height: 2em;
+}
+.year{
+    padding-right: 15em;
+    font-size: 1.9em;
+    color: black;
+}
+
+.content{
+    margin-left: em;
+}
+
+
+.Foot {
+    height: 160px;
+    margin-top: 40rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+    background-color: black;
+    color: white;
+}
+p#ft{
+    color: white;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fa-copyright {
+    margin-right: 10px;
+    margin-top: -0.1em;
+}
+
+p {
+    color: black;
+}
+
+
+
+
+
+@media only screen and (max-width: 1080px) {
+    /* Adjust styles for screens with a maximum width of 768 pixels */
+    h1 {
+        font-size: 3em;
+    }
+
+    .navbar {
+        font-size: 1em;
+    }
+
+    hr{
+        width: 30em;
+    }
+    .art{
+        margin-left: 5em;
+    }
+
+    #png{
+        margin-left: 1em;
+    }
+
+    #cen{
+        margin-left: -10em;
+    }
+
+    #png2{
+        margin-left: 1em;
+    }
+
+    #cen2{
+        margin-left: 0em;
+    }
+
+    .section1{
+        padding-left: 0em;
+        margin: 0em;
+        margin-left: -5em;
+        font-size: 0.9em;
+        width: 30em;
+    }
+    .section2 {
+        padding-left: 2em;
+        padding-top: 5em;
+        margin: 0 0 0 0;
+        font-size: 0.9em;
+        width: 0em;
+    }
+
+    footer{
+        margin-top: -20em;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+    .side1, .side2{
+        display:none;
+    }
+    .logo{
+        display: none;
+    }
+    .Heading{
+        margin: 0;
+        padding: 0 1em 0 0;
+    }
+    h1{
+        font-size: 3em;
+        color: white;
+    }
+    .overlap{
+        height: 10em;
+        padding-left:5em;
+        margin-top: -2em;
+        margin-left: -1em;
+    }
+
+    .navbar{
+        height: 22em;
+        margin-bottom: -2em;
+    }
+
+    .slider-container{
+        width: 26em;
+        margin: 0;
+    }
+    input[type="range"]::-webkit-slider-thumb{
+        width: 2em;
+        height: 2em;
+    }
+    .Foot{
+        width: 30em;
+    }
+
+    #year{
+        margin-left: -2.3em;
+        padding: 0;
+    }
+
+    #range{
+        padding-left: 1em;
+    }
+
+    #call{
+        margin-top: 4em;
+        margin-right: -0.01em;
+        margin-left: -0.1em;
+    }
+}
+
+
+
+/*Section*/
+#year{
+    padding-top: 5em;
+    padding-left: 9em;
+    font-size: 3em;
+    background-color: white;
+}
+
+li{
+    margin-left: 10em;
+    padding-left: 6em;
+    text-align: center;
+    color: black;
+}
